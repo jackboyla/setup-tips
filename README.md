@@ -4,6 +4,8 @@ Add conda to PATH if not already done: https://stackoverflow.com/a/51996934
 
 NOTE: You may need to change `Select Default Profile` in VS Code to `cmd` instead of Powershell
 
+Login to wandb via CLI: `wandb login YOUR_API_KEY`
+
 ```
 !SET WANDB_API_KEY="YOUR_KEY"
 
