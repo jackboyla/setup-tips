@@ -1,0 +1,220 @@
+{
+    "window.commandCenter": true,
+    "jupyter.askForKernelRestart": false,
+    "notebook.output.scrolling": true,
+    "notebook.output.wordWrap": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.inheritEnv": false,
+    "git.autofetch": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.connectTimeout": 30,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.formatOnSave": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#8eda38", //change to your preference
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#8eda38" //change to your preference
+                }
+            },
+            // YAML keys
+            { "scope": ["entity.name.tag.yaml"], "settings": { "foreground": "#FFD54F", "fontStyle": "bold" } },
+
+        ]
+    },
+    "workbench.colorCustomizations": {
+        // Highlighting colors
+        "editor.selectionBackground": "#00cc44a8",
+        "editor.selectionHighlightBackground": "#ff7b00a1",
+        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
+        // Explorer and List colors
+        "list.activeSelectionForeground": "#ffffff",
+        "list.focusForeground": "#ffffff",
+        "list.inactiveSelectionForeground": "#dddddd",
+        "list.hoverForeground": "#eeeeee",
+        "sideBar.foreground": "#d0d0d0",
+        "gitDecoration.addedResourceForeground": "#4CAF50", // bright green for new unstaged files
+        "gitDecoration.modifiedResourceForeground": "#FFB300", // amber for modified files
+        "gitDecoration.deletedResourceForeground": "#E57373", // soft red for deleted files
+        "gitDecoration.untrackedResourceForeground": "#81C784", // light green for untracked files
+        "gitDecoration.ignoredResourceForeground": "#757575", // greyed out ignored files
+        "gitDecoration.conflictingResourceForeground": "#F44336", // red for merge conflicts
+        // ── Tab text colors ────────────────────────────────
+        "tab.activeForeground": "#FFFFFF", // bright text for active tab
+        "tab.inactiveForeground": "#d0c1c1", // clearer gray for inactive tabs
+        "tab.unfocusedActiveForeground": "#9a9090",
+        "tab.unfocusedInactiveForeground": "#888888",
+        // ── Diff editor colors ───────────────────────────
+        "editorGutter.modifiedBackground": "#FFB300", // amber for modified lines
+        "editorGutter.addedBackground": "#4CAF50", // green for added lines
+        "editorGutter.deletedBackground": "#F44336", // red for deleted lines
+        "editorOverviewRuler.modifiedForeground": "#FFB300",
+        "editorOverviewRuler.addedForeground": "#4CAF50",
+        "editorOverviewRuler.deletedForeground": "#F44336",
+        "diffEditor.insertedTextBackground": "#388E3C33", // translucent green
+        "diffEditor.removedTextBackground": "#D32F2F33", // translucent red
+
+    },
+    "llm.tlsSkipVerifyInsecure": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "llm.modelIdOrEndpoint": "bigcode/starcoder",
+    "llm.fillInTheMiddle.enabled": true,
+    "llm.fillInTheMiddle.prefix": "<fim_prefix>",
+    "llm.fillInTheMiddle.middle": "<fim_middle>",
+    "llm.fillInTheMiddle.suffix": "<fim_suffix>",
+    "llm.temperature": 0.2,
+    "llm.contextWindow": 8192,
+    "llm.tokensToClear": [
+        "<|endoftext|>"
+    ],
+    "llm.tokenizer": {
+        "repository": "bigcode/starcoder"
+    },
+    "llm.lsp.logLevel": "error",
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.jsonl": "jsonl"
+    },
+    "git.confirmSync": false,
+    "explorer.confirmPasteNative": false,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#dd0531"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#61dafb"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Svelte Orange",
+            "value": "#ff3d00"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        },
+        {
+            "name": "forest",
+            "value": "#4f583f"
+        },
+        {
+            "name": "mustard",
+            "value": "#979413"
+        },
+        {
+            "name": "sage",
+            "value": "#556f53"
+        },
+        {
+            "name": "teal",
+            "value": "#0f3844"
+        }
+    ],
+    "redhat.telemetry.enabled": false,
+    "window.confirmSaveUntitledWorkspace": false,
+    "python.defaultInterpreterPath": "/Users/jackboylan/miniconda3/envs/test/bin/python",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path-linux": "/home/jackboylan/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.minikube-show-information-expiration": "2025-03-18T14:37:05.171Z"
+    },
+    "remote.SSH.remotePlatform": {
+        "jack-q-dev-box-1.europe-west1-d.aylien-science": "linux"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 11.5,
+    "editor.maxTokenizationLineLength": 50000,
+    "remote.defaultExtensionsIfInstalledLocally": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github",
+        "johnpapa.vscode-peacock",
+        "ms-toolsai.jupyter",
+        " ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers"
+    ],
+    "foam.openDailyNote.directory": "/Users/jackboylan/Desktop/notes-vault/daily",
+    "foam.openDailyNote.titleFormat": "'Journal Entry,' dddd, mmmm d",
+    "foam.openDailyNote.filenameFormat": "yyyy-mm-dd-dddd-mmmm",
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+    "cloudcode.autoDependencies": "off",
+    "docker.extension.enableComposeLanguageServer": false,
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "python.terminal.activateEnvironment": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "git.suggestSmartCommit": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "workbench.colorTheme": "Cursor Dark",
+}
